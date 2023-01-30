@@ -205,6 +205,7 @@ a {
 }
 
 .tabcontainer {
+  transition: 0.5s ease;
   display: flex;
   width: 1130px;
   margin: 0 auto;
@@ -858,7 +859,7 @@ a {
 
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
 }
 
 @keyframes fade {
