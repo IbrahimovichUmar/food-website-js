@@ -367,11 +367,13 @@ a {
 }
 
 .offer__slider-prev {
+  user-select: none;
   margin-right: 10px;
   cursor: pointer;
 }
 
 .offer__slider-next {
+  user-select: none;
   margin-left: 10px;
   cursor: pointer;
 }

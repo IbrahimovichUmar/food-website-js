@@ -1,6 +1,6 @@
 let modalWindow = document.querySelector(".modal");
 let modalBg = document.querySelector(".modal__bg");
-let openBtns = document.querySelectorAll(".btn");
+let openBtns = document.querySelectorAll("#modal__btns");
 let closeBtns = document.querySelectorAll(".modal__close");
 
 openBtns.forEach((btnOpen) => {
